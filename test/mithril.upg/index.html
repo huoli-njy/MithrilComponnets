@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+  <script src="/mithril/mithril.js"></script>
+  <script src="/mithril/mithril.upg.js"></script>
+  <script>
+  m.route2(document.body, '', {
+    '': 'list',
+    'detail/:newsId': 'detail'
+  }, {
+    baseDir: '',
+    namespace: 'app'
+  });
+  </script>
+</body>
+</html>
